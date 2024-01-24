@@ -1,0 +1,5 @@
+  public GitRepository()
+    {
+        branches = new Dictionary<string, List<string>> { { "master", new List<string>() } };
+        currentBranch = "master";
+    }
